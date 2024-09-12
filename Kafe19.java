@@ -20,8 +20,16 @@ public class Kafe19 {
         totalHarga = (jmlKopi * hargaKopi) + (jmlTeh * hargaTeh) + (jmlRoti * hargaRoti);
         nominalBayar = totalHarga - (diskon * totalHarga);
 
+        // System.out.println("Keanggotaan pelanggan " + keanggotaan);
+        // System.out.println("Item Pembelian " + jmlKopi + " kopi, " + jmlTeh + " teh, " + jmlRoti + " roti" );
+        // System.out.println("Nominal bayar Rp " + nominalBayar);
+
+        System.out.println("Masukkan keanggotaan (true/false): " + keanggotaan); 
+        System.out.println("Masukkan jumlah pembelian kopi: " + jmlKopi);
+        System.out.println("Masukkan jumlah pembelian teh: " + jmlTeh);
+        System.out.println("Masukkan jumlah pembelian roti: " + jmlRoti);
         System.out.println("Keanggotaan pelanggan " + keanggotaan);
-        System.out.println("Item Pembelian " + jmlKopi + " kopi, " + jmlTeh + " teh, " + jmlRoti + " roti" );
+        System.out.println("Item pembelian " + jmlKopi + " Kopi, " + jmlTeh + " teh, " + jmlRoti + " roti");
         System.out.println("Nominal bayar Rp " + nominalBayar);
     } 
 }
